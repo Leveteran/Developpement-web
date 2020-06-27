@@ -1,0 +1,86 @@
+/*
+style.css
+-------
+
+Par Dimitri Nseng
+*/
+body
+{
+	background-image: url("greyzz.png");
+	font-family: serif;
+}
+h1, h2
+{
+	font-family: serif;
+	font-style: normal;
+	text-shadow: 6px 6px 6px black; /* pour créer les ombres*/
+
+}
+
+h1, h1 + p
+{
+	text-align: center;
+	
+}
+img
+{
+	float: right;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
+ul
+{
+	font-size: 1.3em;
+	text-align: justify;
+	font-family: serif;
+	font-style: normal;
+}
+
+h2
+{
+	font-size: 1.3em;
+	color: red;
+	font-family: serif;
+	font-style: normal;
+	/*border: 3px solid blue;*/
+}
+
+em
+{
+	color: green;
+	font-family: serif;
+	font-style: italic;
+}
+
+.cambriole
+{
+	color: blue;
+	font-family: Times New Roman;
+	font-style: normal;
+}
+
+.suite
+{
+	font-size: 1.0em;
+	text-align: justify;
+	font-family: Times New Roman;
+	font-style: normal;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: blue;
+	border
+}
+
+.intro
+{
+	font-size: 1.3em;
+}
+
+footer
+{
+	text-align: center;
+}
